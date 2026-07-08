@@ -1,12 +1,12 @@
 
-# FOOD DELIVERY ANALYTICS
+## FOOD DELIVERY ANALYTICS
 
-# PROJECT OVERVIEW
-## This project analyses food delivery data using **Google sheet, SQL,Python and Power BI**. The goal was to clean messy data, analyze business performance and create an interactive dashboard to help management make data-driven decisions.
+## PROJECT OVERVIEW
+### This project analyses food delivery data using **Google sheet, SQL,Python and Power BI**. The goal was to clean messy data, analyze business performance and create an interactive dashboard to help management make data-driven decisions.
 This project simulates a real-world food delivery business where data contains missing values, inconsistent text that require cleaning before analysis. 
 ---
-# BUSINESS PROBLEM
-## The company wanted answers to the following questions:
+## BUSINESS PROBLEM
+### The company wanted answers to the following questions:
 •	Which restaurant earned the highest revenue?
 •	Which city placed the most orders?
 •	Which restaurant has the highest average rating?
@@ -17,14 +17,14 @@ This project simulates a real-world food delivery business where data contains m
 •	What is the average order value?
 •	Which city has the fastest delivery time?
 ---
-# TOOLS USED
+## TOOLS USED
 •	Google Sheet
 •	SQL (BigQuary)
 •	Python (Pandas and Matplotlib)
 •	Power BI
 ---
-# DATASET
-The dataset contains food delivery orders with the following columns:
+## DATASET
+###The dataset contains food delivery orders with the following columns:
 - order_ID
 - restaurant
 - city
@@ -34,20 +34,20 @@ The dataset contains food delivery orders with the following columns:
 - payment_method
 - rating
 
-# The dataset intentionally included:
+## The dataset intentionally included:
 - Missing values
 - Inconsistent city names
 ---
-# SPREADSHEET (DATA CLEANING)
-## Performed the following cleaning steps:
+## SPREADSHEET (DATA CLEANING)
+### Performed the following cleaning steps:
 •	Identified missing values by conditional formatting
 •	Standardized city names
 •	Standardized restaurant names
 •	Standardized payment methods
 •	Filled missing values by replace it with the avg of the same column
 ---
-# SQL ANALYSIS
-## Used SQL to answer business questions including:
+## SQL ANALYSIS
+### Used SQL to answer business questions including:
 •	Revenue by restaurant
 •	Orders by city
 •	Average rating by restaurant
@@ -59,7 +59,7 @@ The dataset contains food delivery orders with the following columns:
 •	Average order value
 •	Fastest delivery city
 
-# SQL CONCEPTS USED
+## SQL CONCEPTS USED
 •	SELECT
 •	FROM
 •	WHERE
@@ -71,8 +71,8 @@ The dataset contains food delivery orders with the following columns:
 •	AVG()
 •	COUNT()
 ---
-# PYTHON EXPLORATORY DATA ANALYSIS 
-## Performed:
+## PYTHON EXPLORATORY DATA ANALYSIS 
+### Performed:
 •	Dataset overview
 •	Summary statistics
 •	Rating distribution
@@ -85,11 +85,11 @@ The dataset contains food delivery orders with the following columns:
 •	Bar charts
 •	Pie charts
 
-# PYTHON LIBRARIES
+## PYTHON LIBRARIES
 •	Pandas
 •	Matplotlib
 
-# PYTHON CONCEPTS USED
+## PYTHON CONCEPTS USED
 •	read_csv()
 •	head()
 •	info()
@@ -100,16 +100,16 @@ The dataset contains food delivery orders with the following columns:
 •	nlargest()
 •	corr()
 ---
-# POWER BI DASHBOARD
-## Created an interactive dashboard containing:
-# KPI Cards
+## POWER BI DASHBOARD
+### Created an interactive dashboard containing:
+## KPI Cards
 
 - Total Revenue
 - Total Orders
 - Average Rating
 - Average Delivery Time
 
-# Charts
+## Charts
 
 - Revenue by Restaurant
 - Orders by City
@@ -117,18 +117,18 @@ The dataset contains food delivery orders with the following columns:
 - Payment Method Distribution
 - Average Rating by Restaurant
 
-# Filters
+## Filters
 
 - City
 - Restaurant
 - Food Category
 --
 
-# DASHBOARD OVERVIEW
+## DASHBOARD OVERVIEW
  
 
 
-# KEY INSIGHTS
+## KEY INSIGHTS
 
 - Pizza Hut had the highest revenue generating restaurant 
 - Delhi city placed the most orders 
@@ -139,5 +139,5 @@ The dataset contains food delivery orders with the following columns:
 - Delivery times effect on average rating, positive if reached on time and negative with low rating.
 ---
 
-## Author
+### Author
 Sneha Sharma
