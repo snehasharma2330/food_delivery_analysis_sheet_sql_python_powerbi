@@ -1,0 +1,13 @@
+Order_ID,Restaurant,City,Food_Category,Delivery_Time,Order_Amount,Payment_Method,Rating
+101,Pizza Hut,Delhi,Pizza,30,500,UPI,4.5
+102,Domino's,Mumbai,Pizza,25,650,Card,4.2
+103,KFC,Delhi,Burger,35,400,Cash,4.1
+104,Burger King,Pune,Burger,30,450,UPI,3.9
+105,Pizza Hut,Mumbai,Pizza,32,700,Card,4.6
+106,Subway,Delhi,Sandwich,20,532,UPI,4
+107,KFC,Bangalore,Chicken,40,800,Cash,4.2
+108,Domino's,Delhi,Pizza,27,550,UPI,4.4
+109,Subway,Mumbai,Sandwich,18,350,Card,4.3
+110,Pizza Hut,Pune,Pizza,33,600,UPI,4.7
+111,KFC,Delhi,Burger,35,400,Cash,4.1
+112,Burger King,Pune,Burger,29,450,UPI,4
